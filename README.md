@@ -1,4 +1,4 @@
-[Unsupervised Low-Light Image Enhancement via Histogram Equalization Prior](https://arxiv.org/abs/2112.01766). 
+[Unsupervised Low-Light Image Enhancement via Histogram Equalization Prior](https://arxiv.org/abs/2112.01766)
 
 The code will release soon.
 
@@ -24,12 +24,10 @@ README waits for updated, more visual results will release soon
 ## Citation
 if you find this repo is helpful, please cite
 ```
-@misc{zhang2021unsupervised,
-      title={Unsupervised Low-Light Image Enhancement via Histogram Equalization Prior}, 
-      author={Feng Zhang and Yuanjie Shao and Yishi Sun and Kai Zhu and Changxin Gao and Nong Sang},
-      year={2021},
-      eprint={2112.01766},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{zhang2021unsupervised,
+  title={Unsupervised Low-Light Image Enhancement via Histogram Equalization Prior},
+  author={Zhang, Feng and Shao, Yuanjie and Sun, Yishi and Zhu, Kai and Gao, Changxin and Sang, Nong},
+  journal={arXiv preprint arXiv:2112.01766},
+  year={2021}
 }
 ```
