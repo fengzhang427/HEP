@@ -1,6 +1,6 @@
 [Unsupervised Low-Light Image Enhancement via Histogram Equalization Prior](https://arxiv.org/abs/2112.01766)
 
-The code will release soon.
+README waits for updated.
 
 ## Implementation
 * Python3
@@ -19,7 +19,7 @@ HEP consists of two stages, Light Up Module (LUM) and Noise Disentanglement Modu
 ![SCIE](assets/SCIE.png)
 
 
-README waits for updated, more visual results will release soon
+More visual results can be found in asssets.
 
 ## Citation
 if you find this repo is helpful, please cite
