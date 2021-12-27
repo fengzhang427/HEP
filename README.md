@@ -20,7 +20,7 @@ python NDM_train.py
 
 ### Testing process
 
-Please put test images into 'test_images' folder and download the pre-trained checkpoints from [google drive](https://drive.google.com/drive/u/0/folders/1LaeLhaFkrB7a7u5t-mVPuK81C4K1gtil), and put it into `./checkpoints`, then just run
+Please put test images into 'test_images' folder and download the pre-trained checkpoints from [google drive](https://drive.google.com/drive/u/0/folders/1LaeLhaFkrB7a7u5t-mVPuK81C4K1gtil)(put it into `./checkpoints`), then just run
 
 ```shell
 python NDM_test.py
