@@ -13,10 +13,10 @@ from models.LUM_model import DecomNet
 parser = argparse.ArgumentParser()
 parser.add_argument('--denoise_config', type=str, default='./configs/unit_NDM.yaml', help="denoise net configuration")
 parser.add_argument('--light_config', type=str, default='configs/unit_LUM.yaml', help='Path to the config file.')
-parser.add_argument('--input_folder', type=str, default='/home/dancer/test_datasets/DICM', help="input image path")
-parser.add_argument('--output_folder', type=str, default='./NDM_DICM', help="output image path")
-parser.add_argument('--denoise_checkpoint', type=str, default='./checkpoints/NDM_Eng.pt', help="checkpoint of denoise")
-parser.add_argument('--light_checkpoint', type=str, default='./checkpoints/LUM_Eng.pth', help="checkpoint of light")
+parser.add_argument('--input_folder', type=str, default='./test_images', help="input image path")
+parser.add_argument('--output_folder', type=str, default='./NDM_results', help="output image path")
+parser.add_argument('--denoise_checkpoint', type=str, default='./checkpoints/NDM_LOL.pt', help="checkpoint of denoise")
+parser.add_argument('--light_checkpoint', type=str, default='./checkpoints/LUM_LOL.pth', help="checkpoint of light")
 opts = parser.parse_args()
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
