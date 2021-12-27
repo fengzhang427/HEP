@@ -13,10 +13,10 @@ from models.LUM_model import DecomNet
 
 parser = argparse.ArgumentParser(description='Light args setting')
 parser.add_argument('--LUM_config', type=str, default='configs/unit_LUM.yaml', help='Path to the config file.')
-parser.add_argument('--input_folder', type=str, default='/home/dancer/test_datasets/VV',
+parser.add_argument('--input_folder', type=str, default='./test_images',
                     help="input image path")
-parser.add_argument('--output_folder', type=str, default='./LUM_VV', help="output image path")
-parser.add_argument('--LUM_checkpoint', type=str, default='./checkpoints/LUM_Eng.pth',
+parser.add_argument('--output_folder', type=str, default='./LUM_results', help="output image path")
+parser.add_argument('--LUM_checkpoint', type=str, default='./checkpoints/LUM_LOL.pth',
                     help="checkpoint of light")
 opts = parser.parse_args()
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
